@@ -1,5 +1,5 @@
 # Rotten Tomatoes Python API
-
+Best free solution for pulling minimal data from rotten tomatoes website.
 
 ## How to use:
 ~~~python
@@ -50,3 +50,6 @@ tvshow = client.get_tvshow('Game Of Thrones', 2011, 2019)
     'synopsis': 'George R.R. Martin\'s (...) and Spain.'}
 """
 ~~~
+
+NOTE:
+    this module is not official so Rotten-Tomatoes may block your access after massive requests. we recommend vpn for this kind of situations.
